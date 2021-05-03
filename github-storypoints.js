@@ -64,7 +64,7 @@ var addStoryPointsForColumn = (column) => {
 
       const estimateLabels = Array
         .from(card.getElementsByClassName('issue-card-label'))
-        .filter(label => label.innerText.includes('estimate'))
+        .filter(label => label.innerText.includes('SP'))
 
       const firstEstimateText = (
         estimateLabels.length > 0 ? estimateLabels[0].innerText.trim() : null)
