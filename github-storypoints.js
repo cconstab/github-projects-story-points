@@ -1,7 +1,7 @@
 (function (d, w) {
 'use strict';
 
-var estimateRegEx = /^estimate: ([\d\.]+)$/im;
+var estimateRegEx = /([\d\.]+) SP$/im;
 
 var debounce = function (func, wait, immediate) {
   var timeout;
